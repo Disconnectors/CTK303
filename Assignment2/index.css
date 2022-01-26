@@ -48,10 +48,10 @@ html {
 
 #lamphouse img {
   position: absolute;
-  top: 200px;
+  top: 120px;
   left: 400px;
   opacity: .3;
-  width: 100px;
+  width: 800px;
   transition: opacity 1s;
 
   overflow: auto;
