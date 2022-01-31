@@ -1,0 +1,11 @@
+/* CSS */
+#circleSVG {
+  opacity: 1;
+  transition: all 1s linear;
+}
+
+#circleSVG:hover {
+  fill: red;
+  opacity: .5;
+  transform: scale(5);
+}
