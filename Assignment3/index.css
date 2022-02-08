@@ -1,0 +1,33 @@
+body {
+  background-color: #000000;
+}
+
+#Head {
+  animation: headFade 2.0s;
+}
+
+#Star {
+  animation: starFade 2.0s;
+}
+
+#Sunglasses {
+  animation: sunglassesFade 3.0s;
+}
+
+#Character:hover {
+  transform: scale(1.2);
+}
+
+@keyframes headFade {
+  0% { transform: translate(0, 600px);}
+  100% { transform: translate(0, 0);}
+}
+@keyframes starFade {
+  0% { transform: translate(-600px, 0);}
+  100% { transform: translate(0, 0);}
+}
+
+@keyframes sunglassesFade {
+  0% { transform: translate(0, -600px);}
+  100% { transform: translate(0, 0);}
+}
