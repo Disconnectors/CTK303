@@ -1,0 +1,18 @@
+@font-face { font-family: Snowinter; src: url('Snowinter.ttf'); }
+
+h1 a {
+  font-size: 100px;
+  color: red;
+  text-decoration: none;
+  margin-left: 20px;
+  padding: 0;
+  font-family: 'Snowinter';
+}
+
+h1 a:hover {
+  color: green;
+}
+
+h1 a:active {
+  color: green;
+}
